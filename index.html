@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NASA Space Travel</title>
+
+  <!-- AOS (scroll animation) -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Particle Background -->
+  <div id="particles-js"></div>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-text">
+      <h1><span id="typed"></span></h1>
+      <p>Travel through Space with the NASA Program.</p>
+      <a href="#destinations" class="btn">Explore Now</a>
+    </div>
+  </header>
+
+  <!-- Destinations Section -->
+  <section id="destinations" class="destinations">
+    <h2 data-aos="fade-up">Destinations</h2>
+    <div class="cards">
+      <div class="card tilt" data-aos="zoom-in">
+        <img src="https://images.unsplash.com/photo-1490814525860-594e82bfd34a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1495" alt="TheMoon">
+        <h3>The Moon</h3>
+        <p>A serene celestial getaway with endless craters, silver horizons, and breathtaking Earth views.</p>
+      </div>
+      <div class="card tilt" data-aos="zoom-in" data-aos-delay="100">
+        <img src="https://images.unsplash.com/photo-1614732414444-096e5f1122d5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=3174" alt="Saturn">
+        <h3>Saturn</h3>
+        <p>A majestic ringed giant offering dazzling views of golden bands and icy rings.</p>
+      </div>
+      <div class="card tilt" data-aos="zoom-in" data-aos-delay="200">
+        <img src="https://images.unsplash.com/photo-1630694093867-4b947d812bf0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2815" alt="Mars">
+        <h3>Mars</h3>
+        <p>The red frontier—rugged deserts, towering volcanoes, and whispers of ancient rivers.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.2/dist/vanilla-tilt.min.js"></script>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
